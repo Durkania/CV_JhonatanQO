@@ -51,8 +51,40 @@
             <td>Si</td>
         </tr>
         </table>
-    <h2>Agrega estudios</h2>
+    <h2>Formulario para agregar otros estudios</h2>
+    <form autocomplete="on" name="Formulario de estudios">
+        <fieldset>
+            <legend>Agregar Estudios</legend>
+            <p>
+                <label for="Año">Año de estudio</label>
+                <select required>
+                    <option value="">Seleccione un año</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                </select>
+            </p>
+            <p>
+                <label for="Institución">Institución</label>
+                <input type="text" required>
+            </p>
+            <p>
+                <label for="Lugar">Lugar</label>
+                <input type="text" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+<!--        <input type="button" value="Enviar">-->
 
+    </form>
 
     <h2>Información de contacto</h2>
     <h4>alogenuss@gmail.com</h4>
